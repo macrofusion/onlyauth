@@ -13,6 +13,11 @@
             "sso_host": "sso.onlyauth.local",
             "sso_http": true,
             "sso_https": true
+        },
+        "ldap": {
+            "ldap_enable": true,
+            "ldap_host": "ldap.onlyauth.local",
+            "ldap_port": 389
         }
     }
 }
