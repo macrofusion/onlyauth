@@ -3,6 +3,7 @@ package models;
 typedef User = {
 	firstName:String,
 	lastName:String,
+	username:String,
 	email:String,
 	phone:String,
 	id:String,
