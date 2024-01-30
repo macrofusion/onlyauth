@@ -1,0 +1,4 @@
+-cp runner
+--main Main
+-dce no
+--cpp bin/runner

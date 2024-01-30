@@ -1,6 +1,10 @@
 {
     "servers": {
         "http_port": 80,
-        "https_port": 443
+        "https_port": 443,
+        "db": {
+            "db_port": 4487,
+            "key": ""
+        }
     }
 }
