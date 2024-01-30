@@ -1,0 +1,5 @@
+-cp backend/db
+--main Main
+-dce no
+--library hx_webserver
+--cpp bin/db
