@@ -3,8 +3,16 @@
         "http_port": 80,
         "https_port": 443,
         "db": {
+            "db_enable": true,
+            "db_host": "onlyauth.local",
             "db_port": 4487,
             "key": ""
+        },
+        "sso": {
+            "sso_enable": true,
+            "sso_host": "sso.onlyauth.local",
+            "sso_http": true,
+            "sso_https": true
         }
     }
 }
