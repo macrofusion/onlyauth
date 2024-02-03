@@ -2,7 +2,7 @@ package;
 
 typedef Config = {
 	servers:{
-		http_port:Int, https_port:Int, db:{
+		management:{http_port:Int, https_port:Int,}, db:{
 			db_enable:Bool, db_host:String, db_port:Int, db_key:String
 		}, sso:{
 			sso_enable:Bool, sso_host:String, sso_http:Bool, sso_http_port:Int, sso_https:Bool, sso_https_port:Int

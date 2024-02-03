@@ -6,8 +6,10 @@ class ConfigManager {
 	public static function init() {
 		var dc:Config = {
 			servers: {
-				http_port: 80,
-				https_port: 443,
+				management: {
+					http_port: 80,
+					https_port: 443
+				},
 				db: {
 					db_enable: true,
 					db_host: "db.onlyauth.local",
