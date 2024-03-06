@@ -7,7 +7,9 @@ class ConfigManager {
 		var dc:Config = {
 			servers: {
 				management: {
+					http_enable: true,
 					http_port: 80,
+					https_enable: true,
 					https_port: 443
 				},
 				db: {
@@ -28,6 +30,12 @@ class ConfigManager {
 					ldap_enable: true,
 					ldap_host: "ldap.onlyauth.local",
 					ldap_port: 389
+				},
+				radius: {
+					radius_enable: true,
+					radius_host: "radius.onlyauth.local",
+					radius_auth_port: 1812,
+					radius_acc_port: 1813
 				}
 			}
 		};
