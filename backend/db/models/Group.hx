@@ -1,7 +1,7 @@
 package models;
 
 typedef Group = {
-	name:String,
+	?name:String,
 	id:String,
 	groups:Array<Int>
 }
