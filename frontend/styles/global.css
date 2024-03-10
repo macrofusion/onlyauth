@@ -1,0 +1,59 @@
+* {
+    font-family: Cantarell, Ubuntu, "Trebuchet MS", Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    background-color: #19197f;
+    width: 100vw;
+    height: 100vh;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+}
+
+.mainbox {
+    width: fit-content;
+    height: fit-content;
+    padding: 25px;
+}
+
+.glass {
+    width: fit-content;
+    height: fit-content;
+    padding: 25px;
+    background: rgba(67, 67, 245, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+input {
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    background-color: #4343f5;
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 10px;
+    margin: 5px;
+    transition-duration: 250ms;
+}
+
+button:hover {
+    background-color: #19197f;
+}
